@@ -19,43 +19,33 @@ Bot = Client(
 
 START_TEXT = """Hᴇʏ! {}
 
-💫 इस Group को जीवित रखने के लिए, हमें कुछ दान Monthly चाहिए।
-
-💫 Admins , Bot Hosting Server 24 hrs. सेवा को कवर करने के लिए, हमें वास्तव में इस दान की आवश्यकता है।🥺
-
-❤️Minimum दान प्रति माह 3 /- रु। हमें इससे ज्यादा की जरूरत नहीं है 🙏🏻
-
-हमने हमेशा मुफ्त में सेवा प्रदान की कोशिश की है लेकिन अब हमें सेवा बनाए रखने के लिए आपके समर्थन की बहुत आवश्यकता है।
-यदि आप AK-Imax Family में होना महसूस करते हैं तो कृपया हमारी Help करे ।🥺
-
-अगर आप दान करना चाहते हो  तो यहाँ पे Join करे और Screenshot Group में भेज दे ! धन्यवाद🙏🏻
-
-Join Now
-
-💰 (https://t.me/+3KJ5VM9b5ihlOTVl)
-
+ » 💫 इस Group को जीवित रखने के लिए, हमें कुछ दान Monthly चाहिए।
+ » 💫 Admins , Bot Hosting Server 24 hrs. सेवा को कवर करने के लिए, हमें वास्तव में इस दान की आवश्यकता है।🥺
+ » ❤️Minimum दान प्रति माह 3 /- रु। हमें इससे ज्यादा की जरूरत नहीं है 🙏🏻
+ » हमने हमेशा मुफ्त में सेवा प्रदान की कोशिश की है लेकिन अब हमें सेवा बनाए रखने के लिए आपके समर्थन की बहुत आवश्यकता है।
+ » यदि आप AK-Imax Family में होना महसूस करते हैं तो कृपया हमारी Help करे ।🥺
+ » अगर आप दान करना चाहते हो  तो यहाँ पे Join करे और [Screenshot Group](https://t.me/+3KJ5VM9b5ihlOTVl) में भेज दे ! धन्यवाद🙏🏻
+ » 💰[Join now](https://t.me/+3KJ5VM9b5ihlOTVl)
+━━━━━━━━━━━━━━━━━━━
 Team - AK Imax Movies🙏❤️
+━━━━━━━━━━━━━━━━━━━
 
 ========================================
 
-💫 To keep this group alive, we need some donations monthly.
-
-💫 Admins, bot hosting server, to cover 24hrs service, we really need this donation.
-
-❤️Minumin donation Rs 3 /- Rs. We do not need more than this.
-
-We have always tried to provide service for free but now we need a lot of support to maintain service.
-If you feel to be in AK-Imax Family, please help us.
-🥺
-
-If you want to donate, then join here and send it to the screenshot group! Thank you
-
-Join now (https://t.me/+3KJ5VM9b5ihlOTVl)
-
+ » 💫 To keep this group alive, we need some donations monthly.
+ » 💫 Admins, bot hosting server, to cover 24hrs service, we really need this donation.
+ » ❤️Minumin donation Rs 3 /- Rs. We do not need more than this.
+ » We have always tried to provide service for free but now we need a lot of support to maintain service.
+ » If you feel to be in AK-Imax Family, please help us.
+ » If you want to donate, then join here and send it to the [Screenshot Group](https://t.me/+3KJ5VM9b5ihlOTVl)! Thank you🙏🏻
+ » 💰[Join now](https://t.me/+3KJ5VM9b5ihlOTVl)
+━━━━━━━━━━━━━━━━━━━ 
 Team - AK IMAX Movies🙏 ❤️
+━━━━━━━━━━━━━━━━━━━
+
 ☞ Vᴇʀʏ Hᴀᴘᴘʏ ᴛᴏ Kɴᴏᴡ Tʜᴀᴛ Yᴏᴜ ᴀʀᴇ Dᴏɴᴀᴛɪɴɢ Uꜱ.
 
-Tʜᴀɴᴋꜱ Fᴏʀ Uꜱɪɴɢ [Oᴜʀ Bᴏᴛꜱ](https://t.me/+KYLCdC4XfcdmNGVl).
+Tʜᴀɴᴋꜱ Fᴏʀ Uꜱɪɴɢ [OUR SERVICE](https://t.me/akimax).
 
 Mᴀᴅᴇ Wɪᴛʜ Lᴏᴠᴇ Fᴏʀ [Yᴏᴜ](tg://settings)"""
 
@@ -70,9 +60,10 @@ DONATE_BUTTONS =[
 ]
 
 DONATE_TEXT = """Hᴇʏ! {}
+
 Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ UPI.
 
-PayTm/PhonePe/GooglePay - `💰Pay Here [👉 UPI 👈](newprime@ybl)"""
+ 📲 PayTm /📞PhonePe /🇬⠀GooglePay - `💰Pay Here [👉 UPI 👈](newprime@ybl)
 
 Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [BATMAN](https://telegram.me/BATMAN_0). """
 
@@ -94,7 +85,7 @@ PAY_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(" UPI ", callback_data="upidata"),
-            InlineKeyboardButton(" PayPal ", url="https://paypal.me/")
+            InlineKeyboardButton(" PayPal ", url="k786amir@gmail.com")
         ],
         [
             InlineKeyboardButton('Close', callback_data='close')
@@ -121,10 +112,10 @@ async def donate(bot, update):
         quote=True
     )
 
-@Bot.on_message(filters.private & filters.command(["bots"]))
+@Bot.on_message(filters.private & filters.command(["⚡️AK Imax 2.0⚡️"]))
 async def bots(bot, update):
     await bot.send_message(
-        text="https://t.me/+t1ko_FOJxhFiOThl",
+        text="https://t.me/akimax",
         reply_markup=InlineKeyboardMarkup([PAY_BUTTONS]),
         disable_web_page_preview=True,
         quote=True
@@ -136,8 +127,11 @@ async def answerX(bot, update):
     answer = list()
     answer.append(InlineQueryResultArticle(title="This is My Donation Or Payment Bot", description="You Can Donate Us Using Inline.",
     input_message_content=InputTextMessageContent(message_text="Please donate us any amount you like, to support the services."),
-    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("Dᴏɴᴀᴛᴇ 💳", url="https://upayi.ml/sk7062563@okhdfcbank/10") ] ] ),
-    thumb_url="https://telegra.ph/file/330bd070950b8ef775ca9.jpg") )
+    reply_markup=InlineKeyboardMarkup( [ [
+            InlineKeyboardButton("⚡️AK IMAX HUB⚡️", url=f"https://t.me/akimaxmovies"),
+            InlineKeyboardButton("💬 Discussion - Support 👥", url=f"https://t.me/AkImaxSupport"),],
+          [ InlineKeyboardButton("Dᴏɴᴀᴛᴇ 💳", url="https://upayi.ml/newprime@ybl/10") ] ] ),
+    thumb_url="https://te.legra.ph/file/69d562d0f34f8b92cf904.jpg") )
     try:
         await update.answer(results=answer, cache_time=0)
     except Exception as e:
