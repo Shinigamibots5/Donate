@@ -52,7 +52,7 @@ Mᴀᴅᴇ Wɪᴛʜ Lᴏᴠᴇ Fᴏʀ [Yᴏᴜ](tg://settings)"""
 DONATE_BUTTONS = [
     InlineKeyboardButton(
         text='Dᴏɴᴀᴛᴇ 💳',
-        callback_data='donateme
+        callback_data='donateme'
     )
 ]
 
