@@ -58,7 +58,7 @@ DONATE_BUTTONS = [
 
 DONATE_TEXT = """Hᴇʏ! {}
 
-        Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ
+Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ
                   
 ===================  
               ₹ UPI ₹
