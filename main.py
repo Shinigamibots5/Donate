@@ -49,11 +49,9 @@ Tʜᴀɴᴋꜱ Fᴏʀ Uꜱɪɴɢ [OUR SERVICE](https://t.me/akimax).
 
 Mᴀᴅᴇ Wɪᴛʜ Lᴏᴠᴇ Fᴏʀ [Yᴏᴜ](tg://settings)"""
 
-DONATE_BUTTONS = [
-    InlineKeyboardButton(
-        text='Dᴏɴᴀᴛᴇ 💳',
-        callback_data='donateme'
-    )
+DONATE_BUTTONS = [InlineKeyboardButton(" ⚡️AK IMAX HUB⚡️ ", url="https://t.me/akimaxmovies"),
+                  InlineKeyboardButton(" 💬 Discussion - Support 👥 ", url="https://t.me/AkImaxSupport"),
+                  InlineKeyboardButton(text='Dᴏɴᴀᴛᴇ 💳',callback_data='donateme')
 ]
 
 DONATE_TEXT = """Hᴇʏ! {}
@@ -80,7 +78,9 @@ UPI_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(" Back ", callback_data="back"),
-            InlineKeyboardButton(" PayPal ", url="k786amir@gmail.com")
+            InlineKeyboardButton(" ⚡️AK IMAX HUB⚡️ ", url="https://t.me/akimaxmovies"),
+            InlineKeyboardButton(" ⚡️AK Imax 2.0⚡️ ", url="https://t.me/akimax"),
+            InlineKeyboardButton(" PayPal ", url="https://paypal.me/k786amir")
         ],
         [
             InlineKeyboardButton('Close', callback_data='close')
