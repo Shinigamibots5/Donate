@@ -1,9 +1,9 @@
 <h3 align="center">
-# Donate-Bot
-</p>
-A Simple telegram donate bot!
+## Donate-Bot
+</h3>
+
 <p align="center"><a href="https://t.me/Bae_wafaaa"><img src="https://te.legra.ph/file/eeebca5b12ad18838e047.jpg"></a></p>
-Bot For Donating Us. 
+A Simple telegram donate Bot For Donating Us. 
 ---
 
 ```
