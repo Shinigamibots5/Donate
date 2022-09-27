@@ -1,4 +1,4 @@
-# Developed By : Abhishek Kumar (https://telegram.me/TheTeleRoid) 
+
 
 import os
 from pyrogram import Client, filters
@@ -19,13 +19,50 @@ Bot = Client(
 
 START_TEXT = """Hᴇʏ! {}
 
+💫 इस Group को जीवित रखने के लिए, हमें कुछ दान Monthly चाहिए।
+
+💫 Admins , Bot Hosting Server 24 hrs. सेवा को कवर करने के लिए, हमें वास्तव में इस दान की आवश्यकता है।🥺
+
+❤️Minimum दान प्रति माह 3 /- रु। हमें इससे ज्यादा की जरूरत नहीं है 🙏🏻
+
+हमने हमेशा मुफ्त में सेवा प्रदान की कोशिश की है लेकिन अब हमें सेवा बनाए रखने के लिए आपके समर्थन की बहुत आवश्यकता है।
+यदि आप AK-Imax Family में होना महसूस करते हैं तो कृपया हमारी Help करे ।🥺
+
+अगर आप दान करना चाहते हो  तो यहाँ पे Join करे और Screenshot Group में भेज दे ! धन्यवाद🙏🏻
+
+Join Now
+
+💰 (https://t.me/+3KJ5VM9b5ihlOTVl)
+
+Team - AK Imax Movies🙏❤️
+
+========================================
+
+💫 To keep this group alive, we need some donations monthly.
+
+💫 Admins, bot hosting server, to cover 24hrs service, we really need this donation.
+
+❤️Minumin donation Rs 3 /- Rs. We do not need more than this.
+
+We have always tried to provide service for free but now we need a lot of support to maintain service.
+If you feel to be in AK-Imax Family, please help us.
+🥺
+
+If you want to donate, then join here and send it to the screenshot group! Thank you
+
+Join now (https://t.me/+3KJ5VM9b5ihlOTVl)
+
+Team - AK IMAX Movies🙏 ❤️
 ☞ Vᴇʀʏ Hᴀᴘᴘʏ ᴛᴏ Kɴᴏᴡ Tʜᴀᴛ Yᴏᴜ ᴀʀᴇ Dᴏɴᴀᴛɪɴɢ Uꜱ.
 
 Tʜᴀɴᴋꜱ Fᴏʀ Uꜱɪɴɢ [Oᴜʀ Bᴏᴛꜱ](https://t.me/+KYLCdC4XfcdmNGVl).
 
 Mᴀᴅᴇ Wɪᴛʜ Lᴏᴠᴇ Fᴏʀ [Yᴏᴜ](tg://settings)"""
 
-DONATE_BUTTONS = [
+DONATE_BUTTONS =[
+        InlineKeyboardButton(text="⚡️AK IMAX HUB⚡️", url=f"https://t.me/akimaxmovies"),
+        InlineKeyboardButton(text="💬 Discussion - Support 👥", url=f"https://t.me/AkImaxSupport"),
+    ], [
     InlineKeyboardButton(
         text='Dᴏɴᴀᴛᴇ 💳',
         callback_data='donateme'
@@ -35,9 +72,9 @@ DONATE_BUTTONS = [
 DONATE_TEXT = """Hᴇʏ! {}
 Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ UPI.
 
-PayTm/PhonePe/GooglePay - `sk7062563@okhdfcbank`
+PayTm/PhonePe/GooglePay - `💰Pay Here [👉 UPI 👈](newprime@ybl)"""
 
-Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [ツAʙʜɪsʜᴇᴋ Kᴜᴍᴀʀ 🇮🇳](https://telegram.me/HelpLessBoi). """
+Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [BATMAN](https://telegram.me/BATMAN_0). """
 
 BUTTON_TEXT = """ Click the Below Buttons To Donate Us. """
 
@@ -45,7 +82,7 @@ UPI_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(" Back ", callback_data="back"),
-            InlineKeyboardButton(" PayPal ", url="https://paypal.me/AbhishekKumarIN47")
+            InlineKeyboardButton(" PayPal ", url="https://paypal.me/")
         ],
         [
             InlineKeyboardButton('Close', callback_data='close')
@@ -57,7 +94,7 @@ PAY_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(" UPI ", callback_data="upidata"),
-            InlineKeyboardButton(" PayPal ", url="https://paypal.me/AbhishekKumarIN47")
+            InlineKeyboardButton(" PayPal ", url="https://paypal.me/")
         ],
         [
             InlineKeyboardButton('Close', callback_data='close')
