@@ -1,8 +1,9 @@
 
 # Donate-Bot
-Bot For Donating Us. 
-A telegram donate bot.
 
+A Simple telegram donate bot!
+<p align="center"><a href="https://t.me/Bae_wafaaa"><img src="https://te.legra.ph/file/eeebca5b12ad18838e047.jpg"></a></p>
+Bot For Donating Us. 
 ---
 
 ```
@@ -11,19 +12,21 @@ Made with Python3
 Copyright permission under MIT License
 License -> https://github.com/Shinigamibots5/Donate/tree/main
 ```
-
 ---
 
-## Deploy 
-
-<details>
-  <summary><b>Deploy on Heroku</b></summary>
 <br/>
 
-<p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/Shinigamibots5/Donate">
-     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
-  </a>
+<h3 align="center">
+   ─「 Deploying on Heroku 」─
+
+</h3>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Shinigamibots5/Donate"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+<h3 align="center">
+━━━━━━━━━━━━━━━━━━━━
+
+
 </p>
 
 </details>
