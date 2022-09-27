@@ -1,4 +1,4 @@
-
+<h3 align="center">
 # Donate-Bot
 
 A Simple telegram donate bot!
