@@ -127,10 +127,7 @@ async def answerX(bot, update):
     answer = list()
     answer.append(InlineQueryResultArticle(title="This is My Donation Or Payment Bot", description="You Can Donate Us Using Inline.",
     input_message_content=InputTextMessageContent(message_text="Please donate us any amount you like, to support the services."),
-    reply_markup=InlineKeyboardMarkup( [ [
-            InlineKeyboardButton("⚡️AK IMAX HUB⚡️", url=f"https://t.me/akimaxmovies"),
-            InlineKeyboardButton("💬 Discussion - Support 👥", url=f"https://t.me/AkImaxSupport"),],
-          [ InlineKeyboardButton("Dᴏɴᴀᴛᴇ 💳", url="https://upayi.ml/newprime@ybl/10") ] ] ),
+    reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton("Dᴏɴᴀᴛᴇ 💳", url="https://upayi.ml/sk7062563@okhdfcbank/10") ] ] ),
     thumb_url="https://te.legra.ph/file/69d562d0f34f8b92cf904.jpg") )
     try:
         await update.answer(results=answer, cache_time=0)
