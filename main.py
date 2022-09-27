@@ -58,13 +58,19 @@ DONATE_BUTTONS = [
 
 DONATE_TEXT = """Hᴇʏ! {}
 
-        Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ UPI
- ===================  ===================
-    📲 PayTm | 📞PhonePe | 🔶GooglePay
- ===================  ===================  
-             💰Pay Here UPI
+        Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ
+                  
+===================  
+              ₹ UPI ₹
+===================
+📲 PayTm | 📞PhonePe   
+      🔶GooglePay
+===================
+              ₹ UPI ₹
+===================  
+     💰Pay Here UPI 💰
  
-            👉 newprime@ybl 👈
+   👉 newprime@ybl 👈
 
 Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [BATMAN](https://telegram.me/BATMAN_0). """
 
@@ -74,7 +80,7 @@ UPI_BUTTONS = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(" Back ", callback_data="back"),
-            InlineKeyboardButton(" PayPal ", url="https://paypal.me/")
+            InlineKeyboardButton(" PayPal ", url="k786amir@gmail.com")
         ],
         [
             InlineKeyboardButton('Close', callback_data='close')
