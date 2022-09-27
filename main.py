@@ -58,9 +58,13 @@ DONATE_BUTTONS = [
 
 DONATE_TEXT = """Hᴇʏ! {}
 
-Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ UPI.
-
- 📲 PayTm /📞PhonePe /🇬⠀GooglePay - `💰Pay Here [👉 UPI 👈](newprime@ybl)
+        Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ UPI
+ ===================  ===================
+    📲 PayTm | 📞PhonePe | 🔶GooglePay
+ ===================  ===================  
+             💰Pay Here UPI
+ 
+            👉 newprime@ybl 👈
 
 Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [BATMAN](https://telegram.me/BATMAN_0). """
 
