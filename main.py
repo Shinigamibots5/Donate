@@ -70,7 +70,7 @@ Yᴏᴜ Cᴀɴ Dᴏɴᴀᴛᴇ Uꜱ Uꜱɪɴɢ
 ===================  
      💰Pay Here UPI 💰
  
-   👉 newprime@ybl 👈
+   👉 `newprime@ybl` 👈
 
 Oʀ Cᴏɴᴛᴀcᴛ Uꜱ :- [BATMAN](https://telegram.me/BATMAN_0). """
 
